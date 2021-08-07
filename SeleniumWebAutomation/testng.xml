@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Homepage">
+		<classes>
+			<class
+				name="com.webapp.project.homepage.TCID_001_VerificationOfBookOnlineCounselling" />
+			<class
+				name="com.webapp.project.homepage.TCID_002_VerificationOfUpcomingEvents" />
+			<class
+				name="com.webapp.project.homepage.TCID_003_VerificationOfChatBox" />
+			<class
+				name="com.webapp.project.homepage.TCID_004_VerificationFunctionalityOfEnquiryForm" />
+			<class
+				name="com.webapp.project.homepage.TCID_005_VerificationFunctionalityOfEnquiryFormWithInvalidData" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
