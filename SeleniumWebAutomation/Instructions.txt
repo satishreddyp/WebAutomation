@@ -8,9 +8,12 @@ Execution:
 1.Running suite from eclipse
   a.Install testng plugin
   b.import maven project/GIT project(Convert to Maven project)
-  c.Right click on testng.xml and Run as TestNG
+  c.Right click on testng.xml and Run as TestNG **
 
 2.Running suite from command line giving url parameter
   a.Navigate to the directory of code base
   b.mcn clean
   c.mvn test -DsiteUrl=<url should be given here>
+  
+**if scripts skip to run or an unexpected alert is displayed while running as "Reference to undefined variable siteUrl", please navigate to Windows->Preferences->TestNG->Maven->uncheck SystemPropertyVariables-> Apply and close
+  
